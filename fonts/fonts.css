@@ -18,3 +18,30 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.title-font {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.search-form__fieldset-title {
+  color: #FFF;
+  font-family: 'Fira Sans Condensed';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content__card-link {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.search-form {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .search-form__fieldset {
+    border: none;
+    padding: 2px;
+  }  
+
+  .search-form__label:has(:focus-visible) {
+    border: 1px solid #FFF;
+  }

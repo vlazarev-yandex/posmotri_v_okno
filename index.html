@@ -7,6 +7,12 @@
     <title>Посмотри в окно</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/content-details.css" />
+    <link rel="stylesheet" href="./styles/result.css" />
+    <link rel="stylesheet" href="./styles/search-form.css" />
+    <link rel="stylesheet" href="./styles/search-form__textfield.css" />
+    <link rel="stylesheet" href="./styles/search-form__checkbox.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
     <link rel="stylesheet" href="./styles/preloader.css" />
     <link rel="stylesheet" href="./styles/error.css" />
   </head>
@@ -32,7 +38,12 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
-              <label class="search-form__label">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="tv-show" />
+                <span></span>
+                Новости
+              </label>
+              <!-- <label class="search-form__label">
                 <input
                   type="checkbox"
                   name="time"
@@ -41,7 +52,7 @@
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
-              </label>
+              </label> -->
               <label class="search-form__label">
                 <input
                   type="checkbox"
@@ -71,7 +82,7 @@
       </section>
       <section class="content__details">
         <h1 class="title">
-          <span class="content__accent">По-</span><br />смотри<br />в окно
+          <span class="content__accent title-font">По-</span><br /><span class="title-font">смотри</span><br /><span class="title-font">в окно</span>
         </h1>
         <ul class="content__list">
           <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
@@ -105,6 +116,7 @@
         </a>
       </li>
     </template>
+
     <template class="more-button-template">
       <li><button class="button more-button">Показать еще</button></li>
     </template>
