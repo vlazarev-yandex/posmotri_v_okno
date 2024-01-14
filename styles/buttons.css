@@ -1,48 +1,47 @@
 .button {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 
-    color: #FFF;
-    text-align: center;
-    font-family: 'Fira Sans Condensed';
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #fff;
+  text-align: center;
+  font-family: "Fira Sans Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 
-    background-color: transparent;
+  background-color: transparent;
 
-    border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
 button:active {
-    background: #545050;
+  background: #545050;
 }
 
 button:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 button:focus {
-    border: 1px double #FFF;
-    outline: 1px double #FFF;
-    outline-offset: 2px;
+  border: 1px double #fff;
+  outline: 1px double #fff;
+  outline-offset: 2px;
 }
 
 .search-form__submit-button {
-    cursor: pointer;
+  cursor: pointer;
 
-
-    width: 194px;
-    height: 34px;
+  width: 194px;
+  height: 34px;
 }
 
 .more-button {
-    cursor: pointer;
-    width: 399px;
-    height: 34px;
+  cursor: pointer;
+  width: 399px;
+  height: 34px;
 }
