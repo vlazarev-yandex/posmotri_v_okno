@@ -19,6 +19,20 @@
     border: 1px solid #FFF;
 }
 
+button:active {
+    background: #545050;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button:focus {
+    border: 1px double #FFF;
+    outline: 1px double #FFF;
+    outline-offset: 2px;
+}
+
 .search-form__submit-button {
     cursor: pointer;
 
